@@ -4,12 +4,16 @@
   "description": "Simple app starter using youtube api",
   "private": true,
   "dependencies": {
+    "@jridgewell/sourcemap-codec": "^1.4.15",
+    "axios": "^1.5.1",
+    "core-js": "3",
     "lodash": "^4.17.21",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.6",
-    "react-scripts": "^4.0.3",
+    "react-scripts": "^5.0.1",
     "redux": "^4.1.2",
+    "typescript": "^5.2.2",
     "youtube-api-search": "0.0.5"
   },
   "scripts": {
@@ -26,5 +30,12 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/preset-react": "^7.22.15",
+    "@types/lodash": "^4.14.199",
+    "@types/react": "^18.2.28",
+    "@types/react-dom": "^18.2.13"
+  }
 }
